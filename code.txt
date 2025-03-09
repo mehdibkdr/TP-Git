@@ -1,0 +1,29 @@
+public class Car {
+    // Attributes
+    String model;
+    String color;
+    int year;
+
+    // Constructor
+    public Car(String model, String color, int year) {
+        this.model = model;
+        this.color = color;
+        this.year = year;
+    }
+
+    // Method to display car details
+    public void displayDetails() {
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Year: " + year);
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        // Create a Car object
+        Car myCar = new Car("Tesla Model S", "Red", 2023);
+        
+        // Display car details
+        myCar.displayDetails();
+    }
+}
