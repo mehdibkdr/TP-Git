@@ -1,6 +1,7 @@
 public class Car {
     // Attributes
     String type;
+    String id;
     String color;
     int year;
 
@@ -24,7 +25,8 @@ public class Car {
         Car myCar = new Car("Tesla Model S", "Red", 2023);
         
         // Display car details
-        myCar.displayDetails();
+ 
+       myCar.displayDetails();
     }
 }
 #updated
