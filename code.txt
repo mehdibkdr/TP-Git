@@ -1,6 +1,6 @@
 public class Car {
     // Attributes
-    String model;
+    String type;
     String color;
     int year;
 
